@@ -1,0 +1,580 @@
+"Washington, D.C.",Norfolk,208
+"Washington, D.C.",Baltimore,39
+"Washington, D.C.",Philadelphia,235
+"Washington, D.C.",Pittsburgh,251
+"Washington, D.C.","Charleston, W.VA",380
+"Washington, D.C.",Charlotte,388
+"Washington, D.C.",Knoxville,512
+"Washington, D.C.",Cincinnati,523
+"Washington, D.C.",Richmond,108
+Norfolk,Richmond,99
+Knoxville,Nashville,177
+Knoxville,Charlotte,231
+Knoxville,Cincinnati,254
+Knoxville,Raleigh,362
+Knoxville,"Charleston, SC",403
+"Charleston, SC",Myrtle Beach,98
+"Charleston, SC",Savannah,108
+"Charleston, SC",Charlotte,218
+"Charleston, W.VA",Pittsburgh,221
+"Charleston, W.VA",Louisville,257
+"Charleston, W.VA",Cleveland,260
+"Charleston, W.VA",Charlotte,314
+"Charleston, W.VA",Richmond,331
+Orlando,Daytona Beach,58
+Orlando,Tampa,84
+Orlando,Lake City,160
+Orlando,Miami,236
+Tallahassee,Lake City,111
+Tallahassee,Montgomery,208
+Tallahassee,Tampa,252
+Tallahassee,Mobile,253
+Tallahassee,Atlanta,275
+Atlanta,Birmingham,149
+Atlanta,Montgomery,161
+Atlanta,Knoxville,230
+Atlanta,Charlotte,249
+Atlanta,Nashville,252
+Atlanta,Savannah,256
+Atlanta,Lake City,292
+Atlanta,"Charleston, SC",329
+Atlanta,Jacksonville,354
+Atlanta,Memphis,394
+Memphis,Little Rock,138
+Memphis,Nashville,208
+Memphis,Jackson,212
+Memphis,Birmingham,241
+Memphis,Springfield,281
+Memphis,St. Louis,283
+Jacksonville,Raleigh,536
+Jacksonville,Charlotte,399
+Jacksonville,Tampa,190
+Jacksonville,Savannah,138
+Jacksonville,Daytona Beach,99
+jacksonville,Lake City,65
+Lake City,Tampa,169
+Miami,Tampa,266
+Miami,Key West,156
+Miami,Daytona Beach,270
+Kansas City,Topeka,65
+Kansas City,Springfield,170
+Kansas City,Wichita,183
+Kansas City,Des Moines,197
+Wilmington,Norfolk,259
+Wilmington,Richmond,255
+Wilmington,Myrtle Beach,71
+Grand Forks,Fargo,76
+Grand Forks,Minot,210
+Grand Forks,Duluth,268
+Duluth,Madison,340
+Des Moines,Madison,373
+Milwaukee,Madison,78
+Chicago,Milwaukee,91
+Chicago,Madison,152
+Chicago,Indianapolis,177
+Chicago,Grand Rapids,190
+Chicago,St. Louis,302
+Chicago,Cleveland,345
+Chicago,Des Moines,362
+Chicago,Nashville,473
+Chicago,Kansas City,557
+Chicago,Detroit,300
+Detroit,Grand Rapids,157
+Detroit,Cleveland,173
+Detroit,Columbus,206
+Detroit,Cincinnati,260
+Detroit,Indianapolis,283
+Detroit,"Buffalo, NY",417
+"Buffalo, NY",Cleveland,194
+"Buffalo, NY",Binghamton,220
+"Buffalo, NY",Albany,289
+Binghamton,Albany,137
+Cincinnati,Louisville,102
+Cincinnati,Indianapolis,108
+Cincinnati,Columbus,109
+Cincinnati,Columbus,202
+Cincinnati,St. Louis,353
+Montgomery,Birmingham,92
+Montgomery,Mobile,171
+Montgomery,Jackson,251
+New York City,Hartford,118
+New York City,Albany,160
+New York City,Harrisburg,174
+New York City,Binghamton,199
+New York City,Cleveland,481
+New York City,Philadelphia,99
+Harrisburg,Philadelphia,105
+Baltimore,Philadelphia,98
+Boston,Hartford,101
+Boston,"Portland, ME",103
+Boston,Albany,177
+Denver,Cheyenne,102
+Denver,Lamar,206
+Denver,Oakley,247
+Denver,North Platte,290
+Denver,Cortez,411
+Denver,Albuquerque,457
+Denver,Salt Lake City,529
+Denver,St.George,648
+"Portland, ME",Bangor,132
+"Portland, OR",Eugene,115
+"Portland, OR",Seattle,180
+"Portland, OR",Riley,268
+"Portland, OR",Crescent City,346
+"Portland, OR",Spokane,400
+"Portland, OR",Boise,439
+Reno,Winnamucca,164
+Reno,Yosemite Village,213
+Reno,Ely,331
+Reno,Riley,342
+Boise,Riley,210
+Boise,Twin Falls,123
+Boise,Winnamucca,257
+Boise,Spokane,379
+Boise,Seattle,499
+Spokane,Seattle,276
+Bismarck,Minot,106
+Bismarck,Fargo,194
+Bismarck,Pierre,209
+Bismarck,Rapid City,358
+Bismarck,Billings,418
+Bismarck,Malta,430
+Rapid City,Pierre,174
+Rapid City,"Buffalo, WY",216
+Rapid City,Cheyenne,290
+Rapid City,Sioux Falls,350
+Phoenix,Tucson,112
+Phoenix,Flagstaff,141
+Phoenix,Springerville,236
+Phoenix,San Diego,368
+Phoenix,El Paso,404
+Los Angeles,Phoenix,393
+Los Angeles,San Diego,118
+Los Angeles,Barstow,138
+Los Angeles,Yosemite Village,313
+Los Angeles,Reno,522
+San Francisco,Los Angeles,384
+San Francisco,Reno,228
+San Francisco,Barstow,442
+San Francisco,Yosemite Village,193
+San Francisco,Crescent City,371
+San Francisco,Eugene,540
+Riley,Eugene,230
+Las Vegas,St.George,122
+Las Vegas,Barstow,155
+Las Vegas,Ely,282
+Las Vegas,Phoenix,288
+Las Vegas,Reno,442
+Las Vegas,Salt Lake City,423
+Salt Lake City,Twin Falls,222
+Salt Lake City,Rawlins,294
+Salt Lake City,Ely,294
+Salt Lake City,St. George,305
+Salt Lake City,Cortez,348
+Salt Lake City,Winnamucca,362
+Salt Lake City,Helena,482
+Salt Lake City,Old Faithful,482
+Raleigh,Wilmington,127
+Raleigh,Richmond,156
+Raleigh,Norfolk,170
+Cleveland,Pittsburgh,141
+Cleveland,Columbus,146
+Cleveland,Des Moines,677
+San Antonio,Eagle Pass,142
+San Antonio,Laredo,154
+San Antonio,Houston,201
+San Antonio,Brownsville,281
+San Antonio,Big Spring,298
+San Antonio,El Paso,552
+San Antonio,Dallas,273
+Dallas,Oklahoma City,208
+Dallas,Houston,237
+Dallas,Big Spring,266
+Dallas,Springfield,282
+Dallas,Little Rock,315
+Dallas,Amarillo,367
+Dallas,Jackson,417
+Dallas,New Orleans,509
+Omaha,Des Moines,143
+Omaha,Topeka,163
+Omaha,Sioux Falls,175
+Omaha,Kansas City,194
+Omaha,North Platte,298
+Omaha,Liberal,489
+Omaha,Rapid City,539
+Minneapolis,Duluth,152
+Minneapolis,Fargo,242
+Minneapolis,Sioux Falls,247
+Minneapolis,Madison,260
+Minneapolis,Des Moines,286
+Minneapolis,Pierre,399
+Minneapolis,Omaha,409
+Minneapolis,St. Louis,540
+New Orleans,Mobile,153
+New Orleans,Jackson,183
+New Orleans,Birmingham,354
+New Orleans,Houston,363
+"Buffalo, WY",Old Faithful,296
+"Buffalo, WY",Billings,168
+"Buffalo, WY",Rawlins,236
+Old Faithful,Rawlins,320
+Rawlins,Cheyenne,146
+North Platte,Cheyenne,215
+North Platte,Oakley,102
+North Platte,Pierre,264
+Charlotte,Raleigh,175
+Charlotte,Myrtle Beach,180
+Charlotte,Wilmington,188
+Nashville,Louisville,180
+Nashville,St. Louis,312
+Nashville,Birmingham,192
+Jackson,Birmingham,234
+Pittsburgh,Harrisburg,218
+Pittsburgh,Columbus,184
+Indianapolis,St. Louis,244
+Indianapolis,Columbus,179
+Indianapolis,Louisville,124
+Brownsville,Houston,365
+Brownsville,Laredo,204
+Eagle Pass,Laredo,124
+Billings,Malta,206
+Billings,Helena,243
+Helena,Old Faithful,216
+Helena,Malta,293
+Helena,Missoula,116
+Spokane,Missoula,198
+Twin Falls,Missoula,401
+Twin Falls,Ely,255
+Little Rock,Springfield,219
+Little Rock,Jackson,267
+Little Rock,Houston,315
+Little Rock,Oklahoma City,336
+Little Rock,St. Louis,350
+St. Louis,Des Moines,387
+St. Louis,Louisville,259
+St. Louis,Kansas City,250
+St. Louis,Springfield,224
+Malta,Minot,457
+Fargo,Minot,268
+Fargo,Duluth,259
+Fargo,Sioux Falls,253
+Flagstaff,St.George,286
+Flagstaff,Cortez,263
+Flagstaff,Barstow,348
+San Diego,Barstow,181
+El Paso,Big Spring,344
+El Paso,Amarillo,412
+El Paso,Eagle Pass,484
+El Paso,Houston,746
+El Paso,Tucson,324
+El Paso,Albuquerque,270
+Albuquerque,Lamar,393
+Albuquerque,Flagstaff,325
+Albuquerque,Amarillo,296
+Albuquerque,Cortez,273
+Albuquerque,Springerville,233
+Albuquerque,Big Spring,418
+Albuquerque,Liberal,421
+Amarillo,Liberal,164
+Amarillo,Oklahoma City,259
+Amarillo,Big Spring,224
+Amarillo,Lamar,228
+Liberal,Lamar,168
+Liberal,Oakley,143
+Liberal,Wichita,209
+Topeka,Wichita,138
+Topeka,Oakley,289
+Topeka,Liberal,361
+Oklahoma City,Wichita,156
+Oklahoma City,Liberal,256
+Oklahoma City,Springfield,283
+Norfolk,"Washington, D.C.",208
+Baltimore,"Washington, D.C.",39
+Philadelphia,"Washington, D.C.",235
+Pittsburgh,"Washington, D.C.",251
+"Charleston, W.VA","Washington, D.C.",380
+Charlotte,"Washington, D.C.",388
+Knoxville,"Washington, D.C.",512
+Cincinnati,"Washington, D.C.",523
+Richmond,"Washington, D.C.",108
+Richmond,Norfolk,99
+Nashville,Knoxville,177
+Charlotte,Knoxville,231
+Cincinnati,Knoxville,254
+Raleigh,Knoxville,362
+"Charleston, SC",Knoxville,403
+Myrtle Beach,"Charleston, SC",98
+Savannah,"Charleston, SC",108
+Charlotte,"Charleston, SC",218
+Pittsburgh,"Charleston, W.VA",221
+Louisville,"Charleston, W.VA",257
+Cleveland,"Charleston, W.VA",260
+Charlotte,"Charleston, W.VA",314
+Richmond,"Charleston, W.VA",331
+Daytona Beach,Orlando,58
+Tampa,Orlando,84
+Lake City,Orlando,160
+Miami,Orlando,236
+Lake City,Tallahassee,111
+Montgomery,Tallahassee,208
+Tampa,Tallahassee,252
+Mobile,Tallahassee,253
+Atlanta,Tallahassee,275
+Birmingham,Atlanta,149
+Montgomery,Atlanta,161
+Knoxville,Atlanta,230
+Charlotte,Atlanta,249
+Nashville,Atlanta,252
+Savannah,Atlanta,256
+Lake City,Atlanta,292
+"Charleston, SC",Atlanta,329
+Jacksonville,Atlanta,354
+Memphis,Atlanta,394
+Little Rock,Memphis,138
+Nashville,Memphis,208
+Jackson,Memphis,212
+Birmingham,Memphis,241
+Springfield,Memphis,281
+St. Louis,Memphis,283
+Raleigh,Jacksonville,536
+Charlotte,Jacksonville,399
+Tampa,Jacksonville,190
+Savannah,Jacksonville,138
+Daytona Beach,Jacksonville,99
+Lake City,jacksonville,65
+Tampa,Lake City,169
+Tampa,Miami,266
+Key West,Miami,156
+Daytona Beach,Miami,270
+Topeka,Kansas City,65
+Springfield,Kansas City,170
+Wichita,Kansas City,183
+Des Moines,Kansas City,197
+Norfolk,Wilmington,259
+Richmond,Wilmington,255
+Myrtle Beach,Wilmington,71
+Fargo,Grand Forks,76
+Minot,Grand Forks,210
+Duluth,Grand Forks,268
+Madison,Duluth,340
+Madison,Des Moines,373
+Madison,Milwaukee,78
+Milwaukee,Chicago,91
+Madison,Chicago,152
+Indianapolis,Chicago,177
+Grand Rapids,Chicago,190
+St. Louis,Chicago,302
+Cleveland,Chicago,345
+Des Moines,Chicago,362
+Nashville,Chicago,473
+Kansas City,Chicago,557
+Detroit,Chicago,300
+Grand Rapids,Detroit,157
+Cleveland,Detroit,173
+Columbus,Detroit,206
+Cincinnati,Detroit,260
+Indianapolis,Detroit,283
+"Buffalo, NY",Detroit,417
+Cleveland,"Buffalo, NY",194
+Binghamton,"Buffalo, NY",220
+Albany,"Buffalo, NY",289
+Albany,Binghamton,137
+Louisville,Cincinnati,102
+Indianapolis,Cincinnati,108
+Columbus,Cincinnati,109
+Columbus,Cincinnati,202
+St. Louis,Cincinnati,353
+Birmingham,Montgomery,92
+Mobile,Montgomery,171
+Jackson,Montgomery,251
+Hartford,New York City,118
+Albany,New York City,160
+Harrisburg,New York City,174
+Binghamton,New York City,199
+Cleveland,New York City,481
+Philadelphia,New York City,99
+Philadelphia,Harrisburg,105
+Philadelphia,Baltimore,98
+Hartford,Boston,101
+"Portland, ME",Boston,103
+Albany,Boston,177
+Cheyenne,Denver,102
+Lamar,Denver,206
+Oakley,Denver,247
+North Platte,Denver,290
+Cortez,Denver,411
+Albuquerque,Denver,457
+Salt Lake City,Denver,529
+St.George,Denver,648
+Bangor,"Portland, ME",132
+Eugene,"Portland, OR",115
+Seattle,"Portland, OR",180
+Riley,"Portland, OR",268
+Crescent City,"Portland, OR",346
+Spokane,"Portland, OR",400
+Boise,"Portland, OR",439
+Winnamucca,Reno,164
+Yosemite Village,Reno,213
+Ely,Reno,331
+Riley,Reno,342
+Riley,Boise,210
+Twin Falls,Boise,123
+Winnamucca,Boise,257
+Spokane,Boise,379
+Seattle,Boise,499
+Seattle,Spokane,276
+Minot,Bismarck,106
+Fargo,Bismarck,194
+Pierre,Bismarck,209
+Rapid City,Bismarck,358
+Billings,Bismarck,418
+Malta,Bismarck,430
+Pierre,Rapid City,174
+"Buffalo, WY",Rapid City,216
+Cheyenne,Rapid City,290
+Sioux Falls,Rapid City,350
+Tucson,Phoenix,112
+Flagstaff,Phoenix,141
+Springerville,Phoenix,236
+San Diego,Phoenix,368
+El Paso,Phoenix,404
+Phoenix,Los Angeles,393
+San Diego,Los Angeles,118
+Barstow,Los Angeles,138
+Yosemite Village,Los Angeles,313
+Reno,Los Angeles,522
+Los Angeles,San Francisco,384
+Reno,San Francisco,228
+Barstow,San Francisco,442
+Yosemite Village,San Francisco,193
+Crescent City,San Francisco,371
+Eugene,San Francisco,540
+Eugene,Riley,230
+St.George,Las Vegas,122
+Barstow,Las Vegas,155
+Ely,Las Vegas,282
+Phoenix,Las Vegas,288
+Reno,Las Vegas,442
+Salt Lake City,Las Vegas,423
+Twin Falls,Salt Lake City,222
+Rawlins,Salt Lake City,294
+Ely,Salt Lake City,294
+St. George,Salt Lake City,305
+Cortez,Salt Lake City,348
+Winnamucca,Salt Lake City,362
+Helena,Salt Lake City,482
+Old Faithful,Salt Lake City,482
+Wilmington,Raleigh,127
+Richmond,Raleigh,156
+Norfolk,Raleigh,170
+Pittsburgh,Cleveland,141
+Columbus,Cleveland,146
+Des Moines,Cleveland,677
+Eagle Pass,San Antonio,142
+Laredo,San Antonio,154
+Houston,San Antonio,201
+Brownsville,San Antonio,281
+Big Spring,San Antonio,298
+El Paso,San Antonio,552
+Dallas,San Antonio,273
+Oklahoma City,Dallas,208
+Houston,Dallas,237
+Big Spring,Dallas,266
+Springfield,Dallas,282
+Little Rock,Dallas,315
+Amarillo,Dallas,367
+Jackson,Dallas,417
+New Orleans,Dallas,509
+Des Moines,Omaha,143
+Topeka,Omaha,163
+Sioux Falls,Omaha,175
+Kansas City,Omaha,194
+North Platte,Omaha,298
+Liberal,Omaha,489
+Rapid City,Omaha,539
+Duluth,Minneapolis,152
+Fargo,Minneapolis,242
+Sioux Falls,Minneapolis,247
+Madison,Minneapolis,260
+Des Moines,Minneapolis,286
+Pierre,Minneapolis,399
+Omaha,Minneapolis,409
+St. Louis,Minneapolis,540
+Mobile,New Orleans,153
+Jackson,New Orleans,183
+Birmingham,New Orleans,354
+Houston,New Orleans,363
+Old Faithful,"Buffalo, WY",296
+Billings,"Buffalo, WY",168
+Rawlins,"Buffalo, WY",236
+Rawlins,Old Faithful,320
+Cheyenne,Rawlins,146
+Cheyenne,North Platte,215
+Oakley,North Platte,102
+Pierre,North Platte,264
+Raleigh,Charlotte,175
+Myrtle Beach,Charlotte,180
+Wilmington,Charlotte,188
+Louisville,Nashville,180
+St. Louis,Nashville,312
+Birmingham,Nashville,192
+Birmingham,Jackson,234
+Harrisburg,Pittsburgh,218
+Columbus,Pittsburgh,184
+St. Louis,Indianapolis,244
+Columbus,Indianapolis,179
+Louisville,Indianapolis,124
+Houston,Brownsville,365
+Laredo,Brownsville,204
+Laredo,Eagle Pass,124
+Malta,Billings,206
+Helena,Billings,243
+Old Faithful,Helena,216
+Malta,Helena,293
+Missoula,Helena,116
+Missoula,Spokane,198
+Missoula,Twin Falls,401
+Ely,Twin Falls,255
+Springfield,Little Rock,219
+Jackson,Little Rock,267
+Houston,Little Rock,315
+Oklahoma City,Little Rock,336
+St. Louis,Little Rock,350
+Des Moines,St. Louis,387
+Louisville,St. Louis,259
+Kansas City,St. Louis,250
+Springfield,St. Louis,224
+Minot,Malta,457
+Minot,Fargo,268
+Duluth,Fargo,259
+Sioux Falls,Fargo,253
+St.George,Flagstaff,286
+Cortez,Flagstaff,263
+Barstow,Flagstaff,348
+Barstow,San Diego,181
+Big Spring,El Paso,344
+Amarillo,El Paso,412
+Eagle Pass,El Paso,484
+Houston,El Paso,746
+Tucson,El Paso,324
+Albuquerque,El Paso,270
+Lamar,Albuquerque,393
+Flagstaff,Albuquerque,325
+Amarillo,Albuquerque,296
+Cortez,Albuquerque,273
+Springerville,Albuquerque,233
+Big Spring,Albuquerque,418
+Liberal,Albuquerque,421
+Liberal,Amarillo,164
+Oklahoma City,Amarillo,259
+Big Spring,Amarillo,224
+Lamar,Amarillo,228
+Lamar,Liberal,168
+Oakley,Liberal,143
+Wichita,Liberal,209
+Wichita,Topeka,138
+Oakley,Topeka,289
+Liberal,Topeka,361
+Wichita,Oklahoma City,156
+Liberal,Oklahoma City,256
+Springfield,Oklahoma City,283
