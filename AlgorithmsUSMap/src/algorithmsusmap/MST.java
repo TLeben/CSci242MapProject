@@ -97,7 +97,7 @@ public class MST {
                 + "\n\t\tTotal Weight: %d Edges: %d"
                 +" Cities: %d" 
                 + "\n----------------------------------------------------"
-                + "--------------------------------",totalWeight,edgeCount,cityCount);
+                + "--------------------------------\n",totalWeight,edgeCount,cityCount);
         for (int i= 0; i < a.size(); i++ ) {
   
                 Edge e = a.get(i);
