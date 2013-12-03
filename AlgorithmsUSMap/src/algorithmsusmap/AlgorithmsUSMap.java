@@ -24,8 +24,8 @@ public class AlgorithmsUSMap {
         ReadCVS readEdges = new ReadCVS();
 	readEdges.run();
         //SexyCities.sexyString();
-        MST mst = new MST();
-        mst.DJP("Grand Forks", SexyCities.cities);
+       MST mst = new MST();
+       mst.DJP("Grand Forks", SexyCities.cities);
         
     }
 }

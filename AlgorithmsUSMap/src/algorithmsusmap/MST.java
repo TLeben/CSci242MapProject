@@ -16,6 +16,9 @@ public class MST {
     public static final int INITIALCAP = 11; // initial capicity for priority Q 
     EdgeComparator edgeCompare; // compares weight of two Edges
     PriorityQueue<Edge> loosies; // holds Edges not in the MST 
+    public int cityCount = 0;
+    public int edgeCount = 0;
+    public int totalWeight = 0;
    
     public MST(){  
     edgeCompare = new EdgeComparator(); 
@@ -40,32 +43,37 @@ public class MST {
         
         //start at arbitrary v(Grand Forks) and add all edges to Queue (Grand Forks, u)
         do {
-            System.out.println("print do");
+            isNewV = false;
             V.add(startU);
+            cityCount++;
             int i = SexyCities.search(startU);
+
             for (int j =0; j< cities[i].size(); j++) {
-               System.out.println("adding ");
+               
                 loosies.offer( (Edge) cities[i].get(j)); //adds edges to Priority Q
             
-            while (!isNewV){
-                System.out.println("while not isNewV");
-                //pop edge with smallest weight
-                Edge temp = loosies.poll();
-                if(temp == null){break;}
-                   // System.out.println("break");
-                
-                 // error checking 
-                //check if v is in queue
-                if (this.checkMst(temp, V) ){
-                    startU = temp.getV();
-                    A.add(temp);
-                    isNewV = true;
-                    System.out.println("setting true");
+                while (!isNewV){
+                    //System.out.println("while not isNewV" );
+                    //pop edge with smallest weight
+                    Edge temp = loosies.poll();
+                    // error checking
+                    if(temp== null){break;}
+                      
+                    //check if v is in queue
+                    if (!checkMst(temp, V) ){
+                        startU = temp.getV();
+                        
+                        A.add(temp);
+                        edgeCount++;
+                        totalWeight += temp.getWeight();
+                        isNewV = true;
+                    }
+                    //else System.out.println("\n did not add "+startU);
                 }
             }
-            }
         } while ( !loosies.isEmpty() );
-        printMST(A);
+        printMST(A, cityCount );
+        
         
     }
     //helper function for DJP to check if edge is in MST
@@ -80,12 +88,25 @@ public class MST {
         return isInMST;
     }
     
-    public void printMST(List<Edge> a){
-        System.out.println("printMST");
+    public void printMST(List<Edge> a, int cities){
+       String s1 = ""; 
+       String s2 = "";
+       boolean foo = true;
+        System.out.printf("\n\n\t\tMinimum Spanning Tree "
+                + "of US Cities from Grand Forks\n"
+                + "\n\t\tTotal Weight: %d Edges: %d"
+                +" Cities: %d" 
+                + "\n----------------------------------------------------"
+                + "--------------------------------",totalWeight,edgeCount,cityCount);
         for (int i= 0; i < a.size(); i++ ) {
-            Edge e = a.get(i);
-            System.out.printf("(%s, %s) %d\n",e.getU(), e.getV(), e.getWeight() );
+  
+                Edge e = a.get(i);
+                if (i%2 == 0){
+                    s1 = String.format("-(%s, %s) %3d\t",e.getU(), e.getV(), e.getWeight() );
+                } else{
+                    s2 = String.format("-(%s, %s) %3d\t",e.getU(), e.getV(), e.getWeight() );
+                    System.out.printf("%35s  %-35s\n",s1,s2);   
+            }
         }
-    }
-    
+    }    
 }
