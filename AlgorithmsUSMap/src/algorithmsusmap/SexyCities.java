@@ -39,13 +39,8 @@ public class SexyCities {
                     cities[i].add(e);
                     break;
                 }
-            }
-            
-            
-            
-        }
-        
-        
+            }       
+        }   
     }
     
     public static int search(String u) {
@@ -68,18 +63,24 @@ public class SexyCities {
     }
     
     public static void sexyString(){
-        MST A = new MST();
+        MST A = new MST(); // used for testing queue
         
         for (int i = 0; i < cities.length; i++) {
             for (int j =0; j< cities[i].size(); j++) {
-                Edge temp = (Edge) cities[i].get(j);
+               // Edge temp = (Edge) cities[i].get(j);
+                A.addEdge( (Edge) cities[i].get(j));
                
-                System.out.printf("\n(%s, %s) %d",
-                                    temp.getU(), temp.getV(), temp.getWeight());
+                //System.out.printf("\n(%s, %s) %d",
+                                    //temp.getU(), temp.getV(), temp.getWeight());
                 
             }
         }
         
-    }
+        while(A.loosies.peek() != null){
+        Edge temp = A.getEdge();
+                 System.out.printf("\n(%s, %s) %d",
+                                    temp.getU(), temp.getV(), temp.getWeight());
+        }
+        }
     
 }
