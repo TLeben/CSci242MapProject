@@ -39,13 +39,8 @@ public class SexyCities {
                     cities[i].add(e);
                     break;
                 }
-            }
-            
-            
-            
-        }
-        
-        
+            }       
+        }   
     }
     
     public static int search(String u) {
@@ -68,11 +63,12 @@ public class SexyCities {
     }
     
     public static void sexyString(){
-        MST A = new MST();
+        
         
         for (int i = 0; i < cities.length; i++) {
             for (int j =0; j< cities[i].size(); j++) {
                 Edge temp = (Edge) cities[i].get(j);
+                //A.addEdge( (Edge) cities[i].get(j));
                
                 System.out.printf("\n(%s, %s) %d",
                                     temp.getU(), temp.getV(), temp.getWeight());
@@ -80,6 +76,7 @@ public class SexyCities {
             }
         }
         
-    }
+       
+        }
     
 }

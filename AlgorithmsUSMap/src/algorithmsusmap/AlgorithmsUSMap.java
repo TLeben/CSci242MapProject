@@ -1,10 +1,9 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ *
  */
 package algorithmsusmap;
 
-import java.util.PriorityQueue;
+
 
 /**
  *
@@ -23,6 +22,9 @@ public class AlgorithmsUSMap {
         
         ReadCVS readEdges = new ReadCVS();
 	readEdges.run();
-        SexyCities.sexyString();
+        //SexyCities.sexyString();
+       MST mst = new MST();
+       mst.DJP("Grand Forks", SexyCities.cities);
+        
     }
 }
