@@ -115,7 +115,7 @@ Denver,North Platte,290
 Denver,Cortez,411
 Denver,Albuquerque,457
 Denver,Salt Lake City,529
-Denver,St.George,648
+Denver,St. George,648
 Portland ME,Bangor,132
 Portland OR,Eugene,115
 Portland OR,Seattle,180
@@ -160,7 +160,7 @@ San Francisco,Yosemite Village,193
 San Francisco,Crescent City,371
 San Francisco,Eugene,540
 Riley,Eugene,230
-Las Vegas,St.George,122
+Las Vegas,St. George,122
 Las Vegas,Barstow,155
 Las Vegas,Ely,282
 Las Vegas,Phoenix,288
@@ -258,7 +258,7 @@ Malta,Minot,457
 Fargo,Minot,268
 Fargo,Duluth,259
 Fargo,Sioux Falls,253
-Flagstaff,St.George,286
+Flagstaff,St. George,286
 Flagstaff,Cortez,263
 Flagstaff,Barstow,348
 San Diego,Barstow,181
@@ -405,7 +405,7 @@ North Platte,Denver,290
 Cortez,Denver,411
 Albuquerque,Denver,457
 Salt Lake City,Denver,529
-St.George,Denver,648
+St. George,Denver,648
 Bangor,Portland ME,132
 Eugene,Portland OR,115
 Seattle,Portland OR,180
@@ -450,7 +450,7 @@ Yosemite Village,San Francisco,193
 Crescent City,San Francisco,371
 Eugene,San Francisco,540
 Eugene,Riley,230
-St.George,Las Vegas,122
+St. George,Las Vegas,122
 Barstow,Las Vegas,155
 Ely,Las Vegas,282
 Phoenix,Las Vegas,288
@@ -548,7 +548,7 @@ Minot,Malta,457
 Minot,Fargo,268
 Duluth,Fargo,259
 Sioux Falls,Fargo,253
-St.George,Flagstaff,286
+St. George,Flagstaff,286
 Cortez,Flagstaff,263
 Barstow,Flagstaff,348
 Barstow,San Diego,181

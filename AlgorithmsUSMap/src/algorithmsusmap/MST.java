@@ -5,10 +5,12 @@ package algorithmsusmap;
 
 
 import java.util.PriorityQueue;
+
 import java.util.List;
 import java.util.LinkedList;
 import java.util.ArrayList;
-/**
+
+/*
  *
  * @author Tieto
  */
@@ -47,11 +49,12 @@ public class MST {
             V.add(startU);
             cityCount++;
             int i = SexyCities.search(startU);
-
+            
             for (int j =0; j< cities[i].size(); j++) {
-               
+                
                 loosies.offer( (Edge) cities[i].get(j)); //adds edges to Priority Q
             
+            }
                 while (!isNewV){
                     //System.out.println("while not isNewV" );
                     //pop edge with smallest weight
@@ -69,8 +72,8 @@ public class MST {
                         isNewV = true;
                     }
                     //else System.out.println("\n did not add "+startU);
-                }
-            }
+                } 
+            
         } while ( !loosies.isEmpty() );
         printMST(A, cityCount );
         
