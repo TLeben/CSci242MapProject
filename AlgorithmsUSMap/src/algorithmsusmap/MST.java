@@ -15,16 +15,25 @@ import java.util.ArrayList;
  * @author Tieto
  */
 public class MST {
-    public static final int INITIALCAP = 11; // initial capicity for priority Q 
+    public static final int INITIALCAP = 11; // initial capicity for priority Q
+    public static int roadTrip = 0;
+    
+    VertexComparator vertCompare;
     EdgeComparator edgeCompare; // compares weight of two Edges
-    PriorityQueue<Edge> loosies; // holds Edges not in the MST 
+    PriorityQueue<Edge> loosies; // holds Edges not in the MST
+    public Vertex source;
     public int cityCount = 0;
     public int edgeCount = 0;
     public int totalWeight = 0;
-   
-    public MST(){  
+ 
+     
+    public MST(){ 
+    
+      
     edgeCompare = new EdgeComparator(); 
     loosies = new PriorityQueue<>(INITIALCAP, edgeCompare);
+    vertCompare = new VertexComparator();
+    
         
     }
     
@@ -67,6 +76,8 @@ public class MST {
                         startU = temp.getV();
                         
                         A.add(temp);
+                      
+                        //System.out.println("adding "+ temp.getU()+" " +temp.getV());
                         edgeCount++;
                         totalWeight += temp.getWeight();
                         isNewV = true;
@@ -102,7 +113,9 @@ public class MST {
                 + "\n----------------------------------------------------"
                 + "--------------------------------\n",totalWeight,edgeCount,cityCount);
         for (int i= 0; i < a.size(); i++ ) {
-  
+//        int i =0;
+//        while (!a.isEmpty()){
+//            Edge  e = a.remove(0);
                 Edge e = a.get(i);
                 if (i%2 == 0){
                     s1 = String.format("-(%s, %s) %3d\t",e.getU(), e.getV(), e.getWeight() );
@@ -110,6 +123,111 @@ public class MST {
                     s2 = String.format("-(%s, %s) %3d\t",e.getU(), e.getV(), e.getWeight() );
                     System.out.printf("%35s  %-35s\n",s1,s2);   
             }
+        } System.out.printf("%35s",s1);
+    }
+    
+    public void shortestPath(LinkedList[] cities, String ss, String s){
+        List<Vertex> verts = new ArrayList<Vertex>();
+        verts.clear();
+        PriorityQueue<Vertex> unvisited;
+        
+        unvisited = new PriorityQueue<>(INITIALCAP,vertCompare);
+        unvisited.clear();
+        String newU;
+        int u;
+        int v;
+        
+        //this fills an array of verticies
+        for (int j = 0; j < 114; j++){
+            Vertex t;
+            t = new Vertex( ((Edge)cities[j].get(0)).getU()); 
+          
+            if(t._name.equals(s) ){
+                t._w = 0;
+                t.added = true; // this is the source
+                unvisited.add(t); 
+                
+                
+            }  verts.add(t);
         }
-    }    
+        int fml = 0;
+        while(!unvisited.isEmpty()){
+            
+                Vertex n = unvisited.poll();
+                n.visited = true;
+                
+                newU = n._name;
+                
+               
+            
+            //System.out.println(++fml + newU);
+             
+             int i = SexyCities.search(newU);
+             for (int j =0; j< cities[i].size(); j++){
+             
+                 Edge temp = (Edge) cities[i].get(j);
+                 //System.out.println(temp.getU());
+                 u =vertSearch2(verts, temp.getU() );
+                 v =vertSearch2(verts, temp.getV() );
+                 
+                //relax
+                 if (verts.get(v)._w > verts.get(u)._w + temp.getWeight()){
+                    verts.get(v)._w = verts.get(u)._w + temp.getWeight();
+                    verts.get(v).ancestor = verts.get(u); 
+                    if (!verts.get(v).visited){
+                        unvisited.add(verts.get(v));
+                        if (verts.get(v)._name.equals(ss)) break;
+                    }
+                    temp = null;
+                }
+
+             }
+
+      
+        }
+        
+            List<Vertex> trip = new ArrayList<Vertex>();
+            trip.clear();
+            int gg = vertSearch2(verts, ss);
+            Vertex tango;
+            tango = verts.get(gg);
+            while (tango.ancestor != null){
+                trip.add(0,tango);
+               
+                gg =vertSearch2(verts, tango.ancestor._name);
+                tango = verts.get(gg);
+            }
+            
+            for (int h = 0; h < trip.size(); h++){
+               if (h== trip.size() - 1){
+                   roadTriptrip.get(h)._w;
+               }
+                System.out.printf("\n  %s %d ", trip.get(h)._name, trip.get(h)._w);
+            }
+//           for ( int p = 0; p < verts.size(); p++){
+//            System.out.printf("\n%d- **%d  %s %d",p+1, vertSearch2(verts, verts.get(p)._name), verts.get(p)._name, verts.get(p)._w);
+//           }
+        
+    }
+    
+ 
+       public int vertSearch2(List<Vertex> v, String n){
+           int i = -1;
+           for (int b = 0; b< v.size(); b++ ){
+               if (v.get(b)._name.equals(n)) {
+                   i = b;
+                   break;
+               }
+            }
+           return i;
+       }
+       public void goOnTrip(String[] s){
+           
+          int k = 0;
+          shortestPath(SexyCities.cities, s[k+1],s[k] );
+          k++;
+           shortestPath(SexyCities.cities, s[k+1],s[k] );
+          
+           
+           }
 }

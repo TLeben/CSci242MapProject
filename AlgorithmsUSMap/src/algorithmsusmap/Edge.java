@@ -10,9 +10,13 @@ package algorithmsusmap;
  * @author Tieto
  */
 public class Edge {
+    public final int INFINITY = 9999999;
+    Vertex U;
+    Vertex V;
     String _u;
     String _v;
     Integer _w;
+    
     public Edge(){
         _u = null;
         _v = null;
@@ -20,6 +24,8 @@ public class Edge {
     }
     public Edge(String u, String v, Integer w) {
         _u = u;
+        U = new Vertex(u);
+        V = new Vertex(v);
         _v = v;
         _w = w;
     }
